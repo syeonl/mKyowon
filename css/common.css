@@ -1267,7 +1267,13 @@ textarea {
     display: inline-block;
     margin-left: 10px;
 }
-.history_container .contents .history_tab li a {display: block; font-size: 16px; }
+.history_container .contents .history_tab li a {    
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #7b7b7b;
+    padding: 10px 20px;
+}
+.history_container .contents .history_tab li a:hover {background:#f6ab00; color: #fff; font-weight: 500; border: 1px solid #fff;}
 .history_container .contents .history_wrap { padding-top: 30px; }
 .history_container .history_wrap .history_tit {
     height: 124px;
